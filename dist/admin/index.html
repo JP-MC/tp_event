@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>ADMIN | Event TP</title>
+</head>
+<body>
+
+    <header><div class="container"><h1>Event TP</h1><h2>Administration</h2></div></header>
+    
+    <section class="full-width">
+        <form id="event-form" class="container">
+            <h3>Formulaire d'évènement</h3>
+            <div id="form-wrap">
+                <div>
+                    <label for="label">Nom</label><input type="text" name="label" id="label"><br>
+                    <label for="position">Lieu</label><input type="text" name="position" id="position"><br>
+                    <label for="category">Catégorie</label><select name="category" id="category"></select>
+                </div>
+                <div>
+                    <label for="date_start">Date de début</label><input type="date" name="date_start" id="date-start"><br>
+                    <label for="time_start">Heure de début</label><input type="time" name="time_start" id="time-start">
+                </div>
+                <div>
+                    <label for="date_end">Date de fin</label><input type="date" name="date_end" id="date-end"><br>
+                    <label for="time_end">Heure de fin</label><input type="time" name="time_end" id="time-end"><br>
+                    <input type="submit" value="Enregistrer l'évènement">
+                </div>
+            </div>
+            
+        </form>
+    </section>
+
+    <section id="event-list" class="container">
+        <!-- Les évènements s'affichent ici -->
+    </section>
+
+    <footer><div class="container">JPMC &copy; 2018</div></footer>
+    
+    <script src="../system.js"></script>
+    <script src="../system-config.js"></script>
+    <script src="assets/main.js" ></script>
+    <script>
+        System.import("main");
+    </script>
+</body>
+</html>

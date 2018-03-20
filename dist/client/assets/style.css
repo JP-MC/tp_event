@@ -1,0 +1,28 @@
+body{margin:0;padding:0;font-family:'Quicksand',arial,sans-serif;background-color:#0a0a0a;color:#fff;}
+h1,h2,h3,h4,h5,h6{font-family:'Raleway',arial,sans-serif;font-weight:400;text-transform:uppercase;}
+
+body>header h1,body>header h2{text-align:center;margin:0;}
+body>header h1{font-size:2.4em;}
+body>header h2{font-size:1.2em;}
+footer{font-size:0.85em;}
+.container{max-width:1170px;margin:0 auto;padding:2em 0;}
+
+footer, .full-width{background-color:#323131;}
+
+#login-form h3{margin-top:0;}
+#login-form label{display:inline-block;width:140px;}
+#form-wrap{display:flex;}
+#form-wrap>div{flex:1;}
+
+input,label,select{margin-bottom:0.4em;}
+input,select{border:0;font-family:'Quicksand',Arial,sans-serif;font-size:1em;height:1.8em;line-height:1.8em;padding:0 0.4em;}
+input[type=submit]{background-color:#956a17;color:#fff;border:0;font-family:'Raleway',Arial,sans-serif;text-transform:uppercase;padding:0 1em;width:100%;transition:background-color 0.4s;}
+input[type=submit]:hover{background-color:#000;}
+
+.event header{display:flex;background-color:#956a17;height:1.8em;line-height:1.8em;}
+.event header .id-category{flex:0 0 120px;padding-left:1em;}
+.event header h4{flex:1;margin:0;}
+.event .take-part,.event .leave{flex:0 0 160px;font-weight:700;text-align:right;padding-right:1em;cursor:pointer;transition:color 0.4s;}
+.event .take-part:hover,.event .leave:hover{color:#000;}
+.event-wrap{display:flex;}
+.event-wrap>p{flex:1;padding-left:1em;}

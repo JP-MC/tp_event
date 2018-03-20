@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "target": "es6",
+        "outFile": "dist/admin/assets/main.js",
+        "strictNullChecks": true
+    },
+    "include": [
+        "ts-admin/**/**.ts"
+    ]
+}

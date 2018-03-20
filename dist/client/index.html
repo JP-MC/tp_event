@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>CLIENT | Event TP</title>
+</head>
+<body>
+
+    <header><div class="container"><h1>Event TP</h1><h2>Client</h2></div></header>
+    
+    <section class="full-width">
+        <!--Inscription ou login ou logout-->
+        <form id="login-form" class="container">
+            <h3>Formulaire de connexion</h3>
+            <div id="form-wrap">
+                <div><label for="login">Login</label><input type="text" name="login" id="login"></div>
+                <div><label for="pass">Mot de passe</label><input type="text" name="pass" id="pass"></div>
+                <div><input type="submit" value="Se connecter"></div>
+            </div>
+        </form>
+    </section>
+
+    <section id="event-list" class="container">
+        <!-- Les évènements s'affichent ici -->
+    </section>
+
+    <footer><div class="container">JPMC &copy; 2018</div></footer>
+    
+    <script src="../system.js"></script>
+    <script src="../system-config.js"></script>
+    <script src="assets/main.js" ></script>
+    <script>
+        System.import("main");
+    </script>
+</body>
+</html>
